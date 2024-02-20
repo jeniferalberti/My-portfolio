@@ -1,0 +1,12 @@
+.experienceLanguage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    gap: 8px;
+
+    img {
+        filter: grayscale(25%);
+    }
+
+}
