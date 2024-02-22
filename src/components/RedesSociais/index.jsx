@@ -2,8 +2,10 @@ import LinkedinIcon from "../icons/LinkedinIcon";
 import InstaIcon from "../icons/InstaIcon";
 import GitHubIcon from "../icons/GitHubIcon";
 import SectionTitle from "../SectionTitle";
-
+import EmailIcon from "./../icons/EmailIcon";
 import styles from "./styles.module.scss";
+import YoutubeIcon from './../icons/YoutubeIcon';
+import Button from "../button";
 
 export default function RedesSociais(){
     return(
@@ -19,7 +21,13 @@ export default function RedesSociais(){
                 <a href="https://github.com/PedroMagno11" target="blank">
                     <GitHubIcon/>
                 </a>
+                <a href="https://www.youtube.com/@dev_crazy" target="blank">
+                    <YoutubeIcon/>
+                </a>
             </div>
+            <Button href="mailto:contato@pedromagno.com.br">
+                Fale comigo <EmailIcon/>
+            </Button>
         </div>
         
     )

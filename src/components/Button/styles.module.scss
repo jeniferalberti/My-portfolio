@@ -1,0 +1,14 @@
+@import "../../App.scss";
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    border-radius: 14px;
+    background: rgb(84,3,117);
+    background: linear-gradient(45deg, rgb(118, 145, 144) 0%,  rgb(125, 3, 172) 100%);
+    text-decoration: none;
+    color: #fff;
+}

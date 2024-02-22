@@ -1,3 +1,5 @@
+@import "../../App.scss";
+
 .container{
     display: flex;
     flex-direction: column;
@@ -5,6 +7,7 @@
     width: 100%;
     gap: 24px;
     max-width: 500px;
+    grid-area: redesSociais;
 }
 .social {
     display: flex;
@@ -23,3 +26,4 @@
         justify-content: center;
     }
 }
+

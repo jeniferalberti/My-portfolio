@@ -8,7 +8,6 @@ export default function Skill(props){
                 alt={props.name}
                 width={40}
                 height={40}
-                priority
             />
       </div>
     )

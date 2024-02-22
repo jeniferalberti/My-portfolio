@@ -7,7 +7,7 @@ export default function Header(){
             <h1>Oi, eu sou o Pedro Magno! 👋</h1>
             <h2>Estudante de Ciência da Computação e futuro Desenvolvedor</h2>
         </div>
-        <img src="Eu.png" alt="Pedro Magno" priority />
-    </header>
+        <img src="assets/Eu.png" alt="Pedro Magno"/>
+        </header>
     )
 }
