@@ -5,7 +5,7 @@ import SectionTitle from "../SectionTitle";
 import EmailIcon from "./../icons/EmailIcon";
 import styles from "./styles.module.scss";
 import YoutubeIcon from './../icons/YoutubeIcon';
-import Button from "../button";
+import Button from "../Button";
 
 export default function RedesSociais(){
     return(
